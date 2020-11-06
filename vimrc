@@ -253,3 +253,8 @@ cnoremap <C-j> <t_kd>
 cnoremap <C-k> <t_ku>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
+
+" bracket highlight
+hi MatchParen cterm=bold ctermbg=none ctermfg=DarkGreen
+
+pachadd! matchit
